@@ -13,12 +13,11 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<resources>
-
-    <style name="Theme.Language" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryDark">@color/primaryDark</item>
-        <item name="colorAccent">@color/accent</item>
-    </style>
-
-</resources>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    android:clipToPadding="false"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp" />
